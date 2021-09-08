@@ -8,7 +8,8 @@ window.onload = function(){
   const somar = document.querySelector("#somar");
 
   somar.addEventListener("click", function(){
-    let resultado = parseFloat(valor1.value) + parseFloat(valor2.value);
+    let resultado = parseFloat(valor1.value) + parseFloat(valor2.value); 
     document.querySelector("#result").value = resultado;
   });
+
 }
